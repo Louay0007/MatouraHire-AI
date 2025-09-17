@@ -10,7 +10,7 @@ import { AuthModule } from './auth/auth.module';
 import { ProfileModule } from './profile/profile.module';
 import { ReportModule } from './report/report.module';
 
-const MONGO_URI = 'mongodb+srv://admin:admin001@chabaqa.ujqhyya.mongodb.net/?retryWrites=true&w=majority&appName=chabaqa';
+const MONGO_URI = 'mongodb+srv://<user>:<pass>@<cluster>/<db>?retryWrites=true&w=majority';
 
 @Module({
   imports: [
