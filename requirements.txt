@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+langchain
+langchain-ollama
+PyMuPDF
+fpdf
+beautifulsoup4
+requests
+python-multipart
