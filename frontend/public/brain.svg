@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Brain">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#g)"/>
+  <g transform="translate(24,24)" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Brain silhouette -->
+    <path d="M72 40c0-17 14-30 30-30 10 0 19 4 25 11 5-4 11-7 18-7 17 0 30 13 30 30 0 3-.4 6-1.3 9 10 4 17 14 17 26 0 16-12 29-28 30 .8 2 1.1 5 1.1 7 0 20-16 36-36 36-7 0-14-2-20-6-5 9-15 15-26 15-17 0-30-14-30-30 0-2 .2-4 .6-6C34 125 24 114 24 100c0-14 9-26 22-29-.4-2-.6-4-.6-6 0-18 14-32 32-32 2 0 4 .1 6 .4z"/>
+    <!-- Brain folds / lobes -->
+    <path d="M102 66c-11 0-20 9-20 20v10H72c-11 0-20 9-20 20s9 20 20 20h10v10c0 11 9 20 20 20s20-9 20-20v-10h10c11 0 20-9 20-20s-9-20-20-20h-10V86c0-11-9-20-20-20z" opacity="0.6"/>
+    <!-- Minor gyri lines -->
+    <path d="M90 112c4 6 10 10 18 10 8 0 14-4 18-10" opacity="0.6"/>
+    <path d="M84 96c3-5 9-8 18-8 9 0 15 3 18 8" opacity="0.6"/>
+    <path d="M84 128c3 5 9 8 18 8 9 0 15-3 18-8" opacity="0.6"/>
+  </g>
+</svg>
+
