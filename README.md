@@ -62,7 +62,7 @@ VITE_API_BASE_URL=http://127.0.0.1:3000
 OLLAMA_URL=http://127.0.0.1:11434
 # Optional tokens used by specific routes
 GITHUB_TOKEN=
- RAPIDAPI_KEY=
+ RAPIDAPI_KEY=f46338f1a1msh8f27a3a69564667p1c5a31jsnbd2438a5d1c9
 STACKEXCHANGE_KEY=
 ```
 
