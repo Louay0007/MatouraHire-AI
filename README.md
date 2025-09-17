@@ -1,6 +1,18 @@
 # MatouraHire AI – Full Stack Project
 
-Modern full‑stack app for resume enhancement, interview coaching, job discovery, professional footprint analysis and career insights improves .
+MatouraHire AI is an end‑to‑end career acceleration platform that helps candidates prepare faster and apply smarter. It combines a modern React UI, a NestJS API, and a Python AI service to:
+
+- Enhance resumes with AI and export polished PDFs fit for ATS systems.
+- Simulate interviews: generate tailored questions, score responses, and produce a strengths/weaknesses profile with next steps.
+- Discover jobs with smarter queries and light market context; analyze CVs to extract skills and keywords.
+- Analyze public professional footprints (GitHub, LinkedIn via RapidAPI, StackOverflow) and synthesize actionable insights.
+
+Who it’s for: job seekers, career changers, and bootcamp/uni students who want a guided, practical toolkit to improve applications and interview outcomes.
+
+How it works at a glance:
+- The React frontend handles auth, profile, uploads, and interactive flows.
+- The NestJS backend manages users, JWT, persistence (MongoDB), file uploads, and proxies selected workloads to the Python AI service.
+- The FastAPI service calls a local/remote Ollama LLM for text generation and analysis, and integrates with public APIs for footprint insights.
 
 ### Tech Stack
 - Frontend: React + Vite + Tailwind + shadcn/ui
